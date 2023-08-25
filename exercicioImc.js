@@ -37,3 +37,9 @@ console.log(joao.classificarImc());
 const miguel = new Pessoa('miguel', 45, 1.70);
 console.log(miguel.nome);
 console.log(miguel.classificarImc());
+
+for (let i = 0; i < miguel.nome.length; i++) {
+    const element = miguel.nome[i];
+    console.log(element);
+    
+}
